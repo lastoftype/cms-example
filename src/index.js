@@ -21,8 +21,12 @@ ReactDOM.render(
 	<Provider store={ store }>
 		<Router>
 			<section>
-				<nav><Link to="/">Home</Link> | <Link to="/thing">Thing</Link></nav>
-				<main>
+				<nav className="nav">
+					<Link to="/">Home</Link>
+					<span> | </span>
+					<Link to="/thing">Thing</Link>
+				</nav>
+				<main className="main">
 					<Switch>
 						<Route exact path="/" component={ App } />
 					</Switch>
