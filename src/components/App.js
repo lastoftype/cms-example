@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Input from './Input';
+import HomeHeader from './HomeHeader';
 
 class App extends Component {
   render() {
     return (
       <div className="app-home">
-          <Input />
+          <HomeHeader />
       </div>
     );
   }

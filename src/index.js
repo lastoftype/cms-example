@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './components/App';
+import Navbar from './components/Navbar';
+import AppHeader from './components/AppHeader';
 
 // Router
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Extra
 import registerServiceWorker from './registerServiceWorker';
@@ -15,18 +17,15 @@ import { Provider } from 'react-redux';
 import store from './store';
 
 // Styles
-import './assets/styles/index.css';
+import './assets/styles/index.scss';
 
 ReactDOM.render(
 	<Provider store={ store }>
 		<Router>
-			<section>
-				<nav className="nav">
-					<Link to="/">Home</Link>
-					<span> | </span>
-					<Link to="/thing">Thing</Link>
-				</nav>
+			<section className="app-container">
+				<Navbar />
 				<main className="main">
+					<AppHeader />
 					<Switch>
 						<Route exact path="/" component={ App } />
 					</Switch>

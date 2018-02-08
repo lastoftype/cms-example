@@ -1,0 +1,10 @@
+$bg-light: #364760;
+$bg-dark: #2A394F;
+$link: #E5E9ED;
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(to bottom, $bg-light, darken($bg-light, 3%));
+	flex: 0 0 250px;
+}

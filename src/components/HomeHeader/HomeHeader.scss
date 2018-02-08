@@ -1,0 +1,14 @@
+$bg-light: #364760;
+$bg-dark: #2A394F;
+$link: #E5E9ED;
+$green: #15A3F8;
+$bg-gray: #EFF2F9;
+
+.home-header {
+	background: $bg-gray;
+	padding: 30px 20px;
+
+	h1 {
+		font-size: 32px;
+	}
+}
