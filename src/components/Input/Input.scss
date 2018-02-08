@@ -1,0 +1,35 @@
+$green: #15A3F8;
+
+.form-group label {
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 8px;
+}
+
+.form-control {
+	padding: 12px 14px;
+	border: 1px solid #999;
+	background-color: white;
+	border-radius: 4px;
+	font-size: 15px;
+	line-height: 1.2;
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 12px;
+}
+
+.button {
+	padding: 12px 14px;
+	border: 0;
+	border-radius: 6px;
+	background-color: $green;
+	color: white;
+	font-size: 15px;
+	line-height: 1;
+
+	&:hover {
+		cursor: pointer;
+		background: darken($green, 4%);
+	}
+}
