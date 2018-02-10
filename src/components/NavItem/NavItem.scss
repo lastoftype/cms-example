@@ -1,7 +1,4 @@
-$bg-light: #364760;
-$bg-dark: #2A394F;
-$link: #E5E9ED;
-$green: #15A3F8;
+@import '~@variables';
 
 .nav-home {
 	display: flex;
@@ -10,7 +7,7 @@ $green: #15A3F8;
     padding: 20px 28px;
     color: transparent;
     text-decoration: none;
-    background: $bg-dark;
+    background: $bg-white;
     margin: 0 0 15px;
 }
 
@@ -43,7 +40,7 @@ $green: #15A3F8;
     }
 
     &.active {
-    	background: $bg-dark;
+    	background: $bg-medium;
     	color: rgba($link, 1);
 
     	&:before {

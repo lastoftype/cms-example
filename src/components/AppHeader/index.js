@@ -8,9 +8,9 @@ export default class AppHeader extends Component {
 	render() {
 		return (
 			<header className="main-header">
-				<span className="header-icon"><ArrowLeft color="#EFF2F9" /></span>
+				<span className="header-icon"><ArrowLeft color="#313942" /></span>
 				<div className="header-links">
-					<span className="header-item"><Settings size={16} color="#EFF2F9" /><Link to="/settings">Settings</Link></span>
+					<span className="header-item"><Settings size={16} color="#313942" /><Link to="/settings">Settings</Link></span>
 				</div>
 			</header>
 		);

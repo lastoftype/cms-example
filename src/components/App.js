@@ -11,7 +11,7 @@ class App extends Component {
           	<div className="tile">
           		<div className="form-group">
 	          		<label>Content</label>
-	          		<textarea className="form-control" />
+	          		<Input componentClass="textarea" className="form-control" />
 	          	</div>
 	          	<button className="button button-primary">Submit</button>
           	</div>

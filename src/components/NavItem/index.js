@@ -20,7 +20,7 @@ export default class NavItem extends Component {
 
 		return (
 			<NavLink to={route} className="nav-item" activeClassName="active">
-				<span className="nav-icon"><IconName color="#E5E9ED" size={24} /></span>
+				<span className="nav-icon"><IconName color="#E5E9ED" size={16} /></span>
 				<span className="nav-text">{ children }</span>
 			</NavLink>
 		);

@@ -1,15 +1,11 @@
-$bg-light: #364760;
-$bg-dark: #2A394F;
-$bg-white: #EFF2F9;
-$link: #E5E9ED;
-$green: #15A3F8;
+@import '~@variables';
 
 .header-item {
 	display: flex;
 	align-items: center;
 
 	a {
-		color: $bg-white;
+		color: $bg-dark;
 		text-decoration: none;
 		margin: 0 0 0 5px;
 	}

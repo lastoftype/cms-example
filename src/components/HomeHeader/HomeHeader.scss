@@ -1,8 +1,4 @@
-$bg-light: #364760;
-$bg-dark: #2A394F;
-$link: #E5E9ED;
-$green: #15A3F8;
-$bg-gray: #EFF2F9;
+@import '~@variables';
 
 .home-header {
 	background: $bg-gray;
